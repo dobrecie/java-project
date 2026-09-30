@@ -4,5 +4,6 @@ public class HelloWorld {
         System.out.println("This is the main branch!");
         System.out.println("This is a feature branch!");
         System.out.println("Update in main after bugfix branched off!");
+        System.out.println("Fixing a bug!");
     }
 }
