@@ -5,6 +5,8 @@ public class HelloWorld {
         System.out.println("This is a feature branch!");
         System.out.println("Update in main after bugfix branched off!");
         System.out.println("Fixing a bug!");
+        printHello();
+        printWorld();
     }
 
     public static void printHello() {
@@ -14,4 +16,5 @@ public class HelloWorld {
     public static void printWorld() {
         System.out.println("Hello from method B!");
     }
+
 }
