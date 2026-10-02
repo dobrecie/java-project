@@ -6,4 +6,8 @@ public class HelloWorld {
         System.out.println("Update in main after bugfix branched off!");
         System.out.println("Fixing a bug!");
     }
+
+    public static void printHello() {
+        System.out.println("Hello from method A!");
+    }
 }
